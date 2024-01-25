@@ -1,0 +1,17 @@
+
+h1{
+    text-align: center;
+}
+
+#message{
+    color: red;
+}
+
+label{
+    font-weight: 500;
+    font-size: large;
+}
+
+.btn{
+    font-size: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="count">0</h1>
+    <div>
+        <button type="button" name="add" id="addBtn">Add</button>
+        <button type="button" name="reset" id="resetBtn">Reset</button>
+    </div>
+
+    <script>
+        let count = 0;
+        function addCount(){
+            count++;
+            document.getElementById("count").innerHTML = count;
+        }
+        function resetCount(){
+            count = 0;
+            document.getElementById("count").innerHTML = count;
+        }
+
+        document.getElementById("addBtn").addEventListener("click",addCount);
+        document.getElementById("resetBtn").addEventListener("click",resetCount);
+    </script>
+</body>
+</html>
